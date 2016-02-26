@@ -13,9 +13,9 @@ It aims to solve the problems faced when creating single page applications - we'
 
 ## Frontend Frameworks
 
-Ever wondered how Facebook can have a different timeline for millions of users? How Twitter can display tweets for 300 million people? How GMail can let you send and receive emails, chat with your friends and view your contacts without having to even refresh the page? That's where frontend frameworks come in. 
+Ever wondered how Facebook can have a different timeline for millions of users? How Twitter can display tweets for 300 million people? How Gmail can let you send and receive emails, chat with your friends and view your contacts without having to even refresh the page? That's where frontend frameworks come in.
 
-Frontend frameworks have grown massively in the last 3 years. They help developers structure their applications and create interactive, super quick applications. 
+Frontend frameworks have grown massively in the last 3 years. They help developers structure their applications and create interactive, super quick applications.
 
 Before we had the pleasure of using frontend frameworks, code would be written very procedurally. JavaScript code would become unwieldy as there was no easy way to structure code for each page that the client would see.
   
@@ -23,7 +23,7 @@ You'd be limited to just simple JavaScript interactions, such as submitting a fo
 
 You might be wondering what we're talking about when it comes to scaling your application. Imagine we have a simple Todo application - the user can add/remove todos from a list. We'd take the initial data (previously saved todos) and display them in a list. Then, when the user adds another todo, we just append another list element to our list.
  
-What if we change the HTML structure of our list? Well you'd better make sure that you update both the code that displays the previously saved todos and the code that adds our new todo to the list - else things could become out of sync quickly. Now imagine you had a lot of code, not necessarily structured correctly, that does similar things that our todo app does. Not only are we repeating ourselves twice, but just by forgetting to update our code in one place would result in bad user experience and an out-of-sync UI.
+What if we change the HTML structure of our list? Well you'd better make sure that you update both the code that displays the previously saved todos and the code that adds our new todo to the list - else things could become out of sync quickly. Now imagine you had a lot of code, not necessarily structured correctly, that does similar things that our todo app does. Not only are we repeating ourselves twice, but just by forgetting to update our code in one place would result in a bad user experience and an out-of-sync UI.
 
 That's where frontend frameworks save the day! Imagine being able to write complex JavaScript applications, having a framework deal with scaling your code, splitting it out into logical chunks and not have to worry about one part breaking another.. Sounds like a dream! Oh wait.. Angular does that for us!
 
@@ -53,10 +53,11 @@ How do they do this? By implementing more features into HTML! With the use of An
 
 ### Back in the stone age
 
-Before Angular, we'd generally use jQuery to make all of our AJAX requests, as it gave us a cross-browser implementation (there used to be no standard way of making AJAX requests!). This was great, but you were left to yourself to do stuff (like update your view, or display error messages etc) after the request had been completed.
+Before Angular, we'd generally use jQuery to make all of our AJAX requests, as it gave us a cross-browser implementation (there used to be no standard way of making AJAX requests!). This was great, but you were left to yourself to do stuff (like update your view, or display error messages, etc.) after the request had been completed.
 
 However, with Angular, we're given the tools to easily make AJAX requests and keep our pages updating in real-time without having to refresh. Awesome!
 
 ### Awesome! But why is it popular?
 
-Not only does it have a massive development community with thousands of plugins, it's also a "one-stop-shop". We can depend on Angular and Angular alone to render and control our whole application. This means there are fewer technologies to learn as we're only dependant on Angular! 
+Not only does it have a massive development community with thousands of plugins, it's also a "one-stop-shop". We can depend on Angular and Angular alone to render and control our whole application. This means there are fewer technologies to learn as we're only dependent on Angular! 
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-what-is-angular-readme'>What Is Angular</a> on Learn.co and start learning to code for free.</p>
