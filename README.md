@@ -21,13 +21,13 @@ Before we had the pleasure of using frontend frameworks, code would be written v
   
 You'd be limited to just simple JavaScript interactions, such as submitting a form via AJAX. Anything more wouldn't have been scalable, resulting in a hard to debug/manage codebase.
 
-You might be wondering what we're talking about when it comes to scaling your application. Imagine we have a simple Todo application - the user can add/remove todos from a list. We'd take the initial data (previously saved todos) and display them in a list. Then, when the user adds another todo, we just append another list element to our list.
+You might be wondering what we're talking about when it comes to scaling your application. Imagine we have a simple To-do application -- the user can add/remove to-dos from a list. We'd take the initial data (previously saved to-dos) and display them in a list. Then, when the user adds another to-do, we just append another list element to our list.
  
-What if we change the HTML structure of our list? Well you'd better make sure that you update both the code that displays the previously saved todos and the code that adds our new todo to the list - else things could become out of sync quickly. Now imagine you had a lot of code, not necessarily structured correctly, that does similar things that our todo app does. Not only are we repeating ourselves twice, but just by forgetting to update our code in one place would result in a bad user experience and an out-of-sync UI.
+What if we change the HTML structure of our list? Well you'd better make sure that you update both the code that displays the previously saved to-dos and the code that adds our new to-do to the list - else things could become out of sync quickly. Now imagine you had a lot of code, not necessarily structured correctly, that does similar things that our to-do app does. Not only are we repeating ourselves twice, but just by forgetting to update our code in one place would result in a bad user experience and an out-of-sync UI.
 
-That's where frontend frameworks save the day! Imagine being able to write complex JavaScript applications, having a framework deal with scaling your code, splitting it out into logical chunks and not have to worry about one part breaking another.. Sounds like a dream! Oh wait.. Angular does that for us!
+That's where frontend frameworks save the day! Imagine being able to write complex JavaScript applications, having a framework deal with scaling your code, splitting it out into logical chunks and not have to worry about one part breaking another... Sounds like a dream! Oh wait... Angular does that for us!
 
-What else does Angular give us? Components! Using a simplistic API (more about that soon!) we can quickly create components that can be reused throughout our whole application - this allows us to code both faster and smarter!
+What else does Angular give us? Components! Using a simplistic API (more about that soon!) we can quickly create components that can be reused throughout our whole application -- this allows us to code both faster and smarter!
 
 ## Traditional Rendering
 
@@ -35,11 +35,11 @@ Before mainstream JavaScript usage, the server would do everything for us. When 
 
 The problem with this is that data displayed on the page could only be updated when the user refreshes. This also meant no smooth transitions between pages (every page the user navigated to would be reloaded in the web browser).
 
-We'd also then have all of our frontend logic mixed in with the backend logic - possibly resulting in a horrible mess of spaghetti code!
+We'd also then have all of our frontend logic mixed in with the backend logic -- possibly resulting in a horrible mess of spaghetti code!
 
 ## The role of Angular
 
-Angular brings power to the frontend, handling routing as well as all of our pretty, interactive views. This allows frontend developers and backend developers to focus on their areas - there's no need to mix code between the two.
+Angular brings power to the frontend, handling routing as well as all of our pretty, interactive views. This allows frontend developers and backend developers to focus on their areas -- there's no need to mix code between the two.
 
 ### Code Architecture
 
@@ -47,17 +47,17 @@ Angular promotes correct and consistent code architecture by splitting our code 
 
 ### Dynamic Views
 
-Angular allows us to write powerful applications straight out of the box. They attach onto the disadvantages that static web pages have - giving us the ability to write dynamic views that are constantly updating. 
+Angular allows us to write powerful applications straight out of the box. It attaches onto the disadvantages that static web pages have, giving us the ability to write dynamic views that are constantly updating. 
 
-How do they do this? By implementing more features into HTML! With the use of Angular, we can have dynamic lists repeating, elements hidden and shown dynamically and much much more - just by writing our HTML (with a few, simple modifications that we will come onto soon!).
+How does it do this? By implementing more features into HTML! With the use of Angular, we can have dynamic lists repeating, elements hidden and shown dynamically and much much more -- just by writing our HTML (with a few, simple modifications that we will come onto soon!).
 
-### Back in the stone age
+### Back in the Stone Age
 
-Before Angular, we'd generally use jQuery to make all of our AJAX requests, as it gave us a cross-browser implementation (there used to be no standard way of making AJAX requests!). This was great, but you were left to yourself to do stuff (like update your view, or display error messages, etc.) after the request had been completed.
+Before Angular, we'd generally use jQuery to make all of our AJAX requests, as it gave us a cross-browser implementation (there used to be no standard way of making AJAX requests!). This was great, but you were left to fend for yourself to do stuff (like update your view, or display error messages, etc.) after the request had been completed.
 
 However, with Angular, we're given the tools to easily make AJAX requests and keep our pages updating in real-time without having to refresh. Awesome!
 
 ### Awesome! But why is it popular?
 
-Not only does it have a massive development community with thousands of plugins, it's also a "one-stop-shop". We can depend on Angular and Angular alone to render and control our whole application. This means there are fewer technologies to learn as we're only dependent on Angular! 
+Not only does it have a massive development community with thousands of plugins, it's also a "one-stop-shop." We can depend on Angular and Angular alone to render and control our whole application. This means there are fewer technologies to learn as we're only dependent on Angular! 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-what-is-angular-readme'>What Is Angular</a> on Learn.co and start learning to code for free.</p>
