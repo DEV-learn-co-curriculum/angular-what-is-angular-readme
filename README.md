@@ -1,4 +1,4 @@
-# What is AngularJS and why does it exist?
+# What is Angular.JS and why does it exist?
 
 ## Overview
 
